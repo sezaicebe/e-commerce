@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+
+    <section id="header">
+      <a href="#"><img class="logo_img" src="img/logo.png" alt="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="shop.html">Eğitim</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">Hakkımda</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+          <li class="active" id="lg-bag">
+            <a href="cart.html"
+              ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+
+      <div id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="page-header1">
+      <div class="container">
+        <h1 class="elementor-heading-title">Sepet</h1>
+      </div>
+    </section>
+    <div class="line"></div>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Kaldır</td>
+            <td>Resim</td>
+            <td>Ürün</td>
+            <td>Fiyat</td>
+            <td>Adet</td>
+            <td>Toplam Fiyat</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i> </a>
+            </td>
+            <td><img src="reiki/aşk.jpg" alt="" /></td>
+            <td>Aşk Reikisi</td>
+            <td>650₺</td>
+            <td><input type="number" value="1" /></td>
+            <td>650₺</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i> </a>
+            </td>
+            <td><img src="reiki/imera.webp" alt="" /></td>
+            <td>İmera Reiki</td>
+            <td>650₺</td>
+            <td><input type="number" value="1" /></td>
+            <td>650₺</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i> </a>
+            </td>
+            <td><img src="reiki/derinsifa.jpg" alt="" /></td>
+            <td>Derin Şifa Reiki</td>
+            <td>650₺</td>
+            <td><input type="number" value="1" /></td>
+            <td>650₺</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Kuponunuzu Girin" />
+          <button class="normal">Uygula</button>
+        </div>
+      </div>
+
+      <div id="subtotal">
+        <h3>Sepet Toplamı</h3>
+        <table>
+          <tr>
+            <td>Alışveriş Sepeti Toplam Fiyat</td>
+            <td>1950₺</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>Kargo</td>
+            <td>Ücretsiz</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td><strong>Toplam</strong></td>
+            <td><strong>1950₺</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Sepeti Onayla</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col follow">
+        <img class="logo_img logo" src="img/logo.png" alt="" />
+        <h4>Sosyal Medya</h4>
+        <div class="icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>İletişim</h4>
+        <p><strong>Telefon:</strong> 0541 260 14 54</p>
+        <p><strong>E-Mail: example@gmail.com</strong></p>
+        <p>
+          <strong>Çalışma Saatleri:</strong>
+          <br />
+          <span
+            >Hafta içi: 19:00 - 22:00 <br />
+            Hafta Sonu: 10:00 - 23:00
+          </span>
+        </p>
+      </div>
+
+      <div class="col">
+        <h4>Hesabım</h4>
+        <a href="#">Hesap Oluştur</a>
+        <a href="#">Oturum Aç</a>
+        <a href="#">Biz Kimiz</a>
+        <a href="#">İletişim</a>
+      </div>
+
+      <div class="col">
+        <h4>Diğer</h4>
+        <a href="#">KVKK Aydınlatma Metni</a>
+        <a href="#">Gizlilik Politikası</a>
+        <a href="#">Mesafeli Satış Sözleşmesi</a>
+        <a href="#">Hakkımda</a>
+      </div>
+
+      <div class="copyright">
+        <hr />
+        <br />
+        <p>©️ 2023 Ruhsal Yolculuk | Tüm Hakları Saklıdır. | Web Tasarım</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
